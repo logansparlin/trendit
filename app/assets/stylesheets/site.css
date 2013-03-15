@@ -1,0 +1,308 @@
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background: url('skylineimage.jpg') no-repeat center center fixed;
+	background-size:  cover;
+	-webkit-background-size:  cover;
+	-moz-background-size:  cover;
+	-o-background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	color: #fff;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 100;
+	margin: 0;
+}
+
+header {
+	background-color:  rgba(128, 167, 175, 1);
+	height:  60px;
+	width:  100%;
+	box-shadow: 0px 2px 3px rgba(0, 0, 0, .2);
+}
+
+#headerContainer {
+	width:  960px;
+	height:  inherit;
+	margin:  0 auto;	
+	position:  relative;
+}
+
+span.logo {
+	font-family: 'Jenna Sue';
+	color:  #fff;
+	font-size:  2.5em;
+	font-weight:  thin;
+	line-height:  1.7;
+	padding-left:  10px;
+}
+
+#nav {
+	position: absolute;
+	top: 0px;
+	right: 0px
+}
+
+#nav a {
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	line-height:3.8;
+}
+
+#nav a:hover {
+	color: #333;
+}
+
+section.introText {
+	width:  960px;
+	margin: 0 auto;
+}
+
+h1 {
+	margin-top: 45px;
+	text-align:  center;
+	color:  #fff;
+	font: 100 4.5em 'Lato', Sans-serif;
+	text-shadow: 1px 1px 5px #000;
+	margin-bottom: 0;
+}
+
+hr.headerLine {
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 15px;
+	border-color: rgba(255, 255, 255, 0.5);
+}
+
+h2 {
+	font-size:  2em;
+}
+
+h2, h4 {
+	color:  #fff;
+	text-shadow: 0px 1px 3px #000;
+	margin: 0;
+	font-family:  'Droid Sans', sans-serif;
+	font-weight:  100;
+}
+
+h3 {
+	margin-top: 0px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	text-shadow: 0px 1px 3px #000;
+	color: #fff;
+}
+
+h4 {
+	font-size: 1.5em;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-weight:  100;
+	line-height: 1.4em;
+	font-size: 1.1em;
+	text-shadow: 0px 1px 3px #000;
+}
+
+p.legal {
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	margin-top: -5px;
+	display: inline-block;
+}
+
+p.introMessageTwo {
+	padding-top: 15px;
+	font-size: 1em;
+	font-weight: 100;
+}
+
+.frontContent {
+	width:  960px;
+	margin:  0 auto;
+	margin-top:  65px;
+}
+
+.frontMessage {
+	width:  550px;
+	float:  left;
+	margin-top:  90px;
+	color: #fff;
+}
+
+.frontMessage p {
+	margin-top:  3px;
+	width:  500px;
+	text-align: justify;
+	display: inline-block;
+}
+
+hr {
+	width:  400px;
+	margin-left:  0px;
+	margin-top:  2px;
+	margin-bottom: 0px;
+}
+
+section.signupForm {
+	width: 360px;
+	float:  right;
+	margin-top: 25px;
+}
+
+#verticalLine {
+	width: 1px;
+	height: 275px;
+	margin-top: 20px;
+	float: left;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-right: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+::-webkit-input-placeholder { 
+    color:    #fff;
+    font-weight: 100;
+}
+:-moz-placeholder {
+    color:    #fff;
+    font-weight: 100;
+}
+::-moz-placeholder {
+    color:    #fff;
+    font-weight: 100;
+}
+:-ms-input-placeholder {
+    color:    #fff;
+    font-weight: 100;
+}
+
+input {
+	border: none;
+	outline: none;
+	height: 35px;
+	width: 336px;
+	margin: 5px 0;
+	font: 100 1em 'Lato', Sans-serif;
+	color: #fff;
+	padding-left:5px;
+	background-color: rgba(50, 50, 50, 0.88);
+	border: none;
+	-moz-box-shadow: inset 1px 1px 4px 0 rgba(0, 0, 0, 0.6), 1px 1px 2px 0 rgba(255, 255, 255, 0.6);
+	-webkit-box-shadow: inset 1px 1px 4px 0 rgba(0, 0, 0, 0.6), 1px 1px 2px 0 rgba(255, 255, 255, 0.6);
+	box-shadow: inset 1px 1px 4px 0 rgba(0, 0, 0, 0.6), 1px 1px 2px 0 rgba(255, 255, 255, 0.6);
+}
+
+input.name {
+	width:160px;
+	margin-right: 10px;
+	float: left;
+
+}
+
+button.startDesigning {
+	width: 200px;
+	height: 40px;
+	margin-top: 10px;
+	border: none;
+	font: 300 1.1em 'Lato', sans-serif;
+	color: #fff;
+	opacity: 0.8;
+	-webkit-opacity: 0.8;
+	-moz-opacity: 0.8;
+	-moz-box-shadow: inset 1px 1px 4px 0 rgba(0, 0, 0, 0.6), 1px 1px 2px 0 rgba(255, 255, 255, 0.6);
+	-webkit-box-shadow: inset 1px 1px 4px 0 rgba(0, 0, 0, 0.6), 1px 1px 2px 0 rgba(255, 255, 255, 0.6);
+	box-shadow: inset 1px 1px 4px 0 rgba(0, 0, 0, 0.6), 1px 1px 2px 0 rgba(255, 255, 255, 0.6);
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#96292a), to(#af2f30));
+	background-image: -moz-linear-gradient(90deg, #96292a 0%, #af2f30 100%);
+	transition: opacity 0.2s ease-in-out;
+	-webkit-transition: opacity 0.2s ease-in-out;
+	-moz-transition: opacity 0.2s ease-in-out;
+}
+
+.submit {
+	width: 125px;
+	height: 40px;
+	border:  none;
+	font: 300 1.1em 'Lato', sans-serif;
+	color: #fff;
+	margin-top: 10px;
+	opacity: 0.88;
+	-webkit-opacity: 0.88;
+	-moz-opacity: 0.88;
+	-moz-box-shadow: inset 1px 1px 4px 0 rgba(0, 0, 0, 0.6), 1px 1px 2px 0 rgba(255, 255, 255, 0.6);
+	-webkit-box-shadow: inset 1px 1px 4px 0 rgba(0, 0, 0, 0.6), 1px 1px 2px 0 rgba(255, 255, 255, 0.6);
+	box-shadow: inset 1px 1px 4px 0 rgba(0, 0, 0, 0.6), 1px 1px 2px 0 rgba(255, 255, 255, 0.6);
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#96292a), to(#af2f30));
+	background-image: -moz-linear-gradient(90deg, #96292a 0%, #af2f30 100%);
+	transition: opacity 0.2s ease-in-out;
+	-webkit-transition: opacity 0.2s ease-in-out;
+	-moz-transition: opacity 0.2s ease-in-out;
+}
+
+.submit:hover, button.startDesigning:hover {
+	opacity: 1;
+	-webkit-opacity: 1;
+	-moz-opacity: 1;
+}
+
+.submit:active {
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#af2f30), to(#96292a));
+	background-image: -moz-linear-gradient(90deg, #af2f30 0%, #96292a 100%);
+}
+
+.fieldWithErrors {
+}
+
+#errorExplanation {
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 340px;
+	margin: 0;
+	margin-top: -25px;
+	padding: 0;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#errorExplanation h2, p {
+	display: none;
+}
+
+#errorExplanation ul {
+	padding: 5px 15px;
+}
+
+#errorExplanation ul li {
+	font: 100 10pt 'Lato', sans-serif;
+	color: #fff;
+	margin: 0px;
+	list-style: none;
+	display: inline;
+}
+
+.notice {
+	border: 2px solid black;
+	position: absolute;
+	top: 60px;
+	height: 50px;
+	width: 100%;
+	margin-bottom: 2em;
+	background-color: rgba(0, 0, 0, 0.7);
+	font: 100 1em 'Lato', sans-serif;
+	line-height: 3;
+	color: #fff;
+}
+
+.debug_dump {
+	text-align: left;
+	border-top: 1px solid black;
+	background: #ccc;
+	margin: 0;
+	padding: 0.5em;
+}

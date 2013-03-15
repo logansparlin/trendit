@@ -1,0 +1,59 @@
+	<div class="register">
+
+		<section id="introText">
+	
+	<h1>Design. Sell. Share.</h1>
+	
+	<hr class="headerLine">
+	
+</section>
+
+<section class="frontContent">
+	
+	<div class="frontMessage">
+	
+		<h4>What We're All About.</h4> <hr />
+		
+		<p class="introMessage">Tweed incididunt 90's, hashtag delectus semiotics pop-up chillwave pickled williamsburg officia you probably haven't heard of them polaroid kale chips. Raw denim cupidatat cillum. </p>
+		
+			<button class="startDesigning" type="button">START DESIGNING</button>
+	
+	</div>
+	
+	<div id="verticalLine"></div>
+	
+<section class="signupForm">
+	
+	<h2>New to Trendit?</h2>
+	<h3>Sign up for free!</h3>
+
+	<%= form_for :user do |form| %>
+	
+		<form class="signupForm" method="post" novalidate>
+			
+			<%= form.text_field :first_name, :placeholder => "FIRST", :size => 15, :maxlength => 20, :class => "name" %>
+
+			<%= form.text_field :last_name, :placeholder => "LAST", :size => 15, :maxlength => 20, :class => "name" %>
+			<br />
+
+			<%= form.email_field :email, :placeholder => "EMAIL" %>
+			<br />
+
+			<%= form.password_field :password, :placeholder => "PASSWORD" %>
+			<br />
+
+			<%= error_messages_for "user" %>
+
+			<p class="legal">By signing up, I accept Trendit's Terms of Use and Privacy Policy.</p>
+
+			<%= submit_tag "SIGN UP", :class => "submit", :formnovalidate => "formnovalidate" %>
+		
+		</form>
+
+	<% end %>
+		
+</section>
+
+</section>
+
+	</div>
