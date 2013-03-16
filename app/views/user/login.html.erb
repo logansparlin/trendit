@@ -1,0 +1,15 @@
+	<%= form_for :user do |form| %>
+
+			<fieldset class="login">
+
+				<h4> Log In </h4>
+
+				<%= form.text_field :email, :class => "login", :placeholder => "EMAIL" %>
+
+				<%= form.password_field :password, :class => "login", :placeholder => "PASSWORD" %>
+
+				<%= submit_tag "LOG IN", :class => "loginButton", :name => "login" %>
+
+			</fieldset>
+			
+		<% end %>

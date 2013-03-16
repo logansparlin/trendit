@@ -4,7 +4,7 @@ RailsSpace::Application.routes.draw do
 
   get "user/register"
 
-  match '' => 'site#index'
+  match '' => 'user#register'
 
   match 'index' => 'site#index'
 

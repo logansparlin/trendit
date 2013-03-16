@@ -29,24 +29,24 @@
 
 	<%= form_for :user do |form| %>
 	
-		<form class="signupForm" method="post" novalidate>
+		<form class="signupForm cmxform" id="commentForm">
 			
-			<%= form.text_field :first_name, :placeholder => "FIRST", :size => 15, :maxlength => 20, :class => "name" %>
+			<%= form.text_field :first_name, :placeholder => "FIRST", :class => "name signup" %>
 
-			<%= form.text_field :last_name, :placeholder => "LAST", :size => 15, :maxlength => 20, :class => "name" %>
+			<%= form.text_field :last_name, :placeholder => "LAST", :class => "name signup" %>
 			<br />
 
-			<%= form.email_field :email, :placeholder => "EMAIL" %>
+			<%= form.email_field :email, :class => "signup", :placeholder => "EMAIL" %>
 			<br />
 
-			<%= form.password_field :password, :placeholder => "PASSWORD" %>
+			<%= form.password_field :password, :class => "signup", :placeholder => "PASSWORD" %>
 			<br />
 
 			<%= error_messages_for "user" %>
 
 			<p class="legal">By signing up, I accept Trendit's Terms of Use and Privacy Policy.</p>
 
-			<%= submit_tag "SIGN UP", :class => "submit", :formnovalidate => "formnovalidate" %>
+			<%= submit_tag "SIGN UP", :class => "submit", :name => "signup" %>
 		
 		</form>
 

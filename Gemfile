@@ -23,7 +23,12 @@ end
 
 gem 'jquery-rails'
 gem 'dynamic_form', "~> 1.1.4"
-# gem 'dynamic_form', "~> 1.1.4"
+group :test, :development do
+	gem 'turn'
+	gem 'rspec-rails'
+	gem 'capybara'
+	gem 'guard-rspec'
+end
 # gem 'capistrano'
 
 # To use ActiveModel has_secure_password
