@@ -1,59 +1,59 @@
-	<div class="register">
+<div class="register">
 
-		<section id="introText">
-	
-	<h1>Design. Sell. Share.</h1>
-	
-	<hr class="headerLine">
-	
-</section>
-
-<section class="frontContent">
-	
-	<div class="frontMessage">
-	
-		<h4>What We're All About.</h4> <hr />
+	<section id="introText">
 		
-		<p class="introMessage">Tweed incididunt 90's, hashtag delectus semiotics pop-up chillwave pickled williamsburg officia you probably haven't heard of them polaroid kale chips. Raw denim cupidatat cillum. </p>
+		<h1>Design. Sell. Share.</h1>
 		
-			<button class="startDesigning" type="button">START DESIGNING</button>
-	
-	</div>
-	
-	<div id="verticalLine"></div>
-	
-<section class="signupForm">
-	
-	<h2>New to Trendit?</h2>
-	<h3>Sign up for free!</h3>
+		<hr class="headerLine">
+		
+	</section>
 
-	<%= form_for :user do |form| %>
-	
-		<form class="signupForm cmxform" id="commentForm">
+	<section class="frontContent">
+		
+		<div class="frontMessage">
+		
+			<h4>What We're All About.</h4> <hr />
 			
-			<%= form.text_field :first_name, :placeholder => "FIRST", :class => "name signup required" %>
-
-			<%= form.text_field :last_name, :placeholder => "LAST", :class => "name signup required" %>
-			<br />
-
-			<%= form.email_field :email, :class => "signup required email", :placeholder => "EMAIL" %>
-			<br />
-
-			<%= form.password_field :password, :class => "signup required", :placeholder => "PASSWORD" %>
-			<br />
-
-			<%= error_messages_for "user" %>
-
-			<p class="legal">By signing up, I accept Trendit's Terms of Use and Privacy Policy.</p>
-
-			<%= submit_tag "SIGN UP", :class => "submit", :name => "signup" %>
+			<p class="introMessage">Tweed incididunt 90's, hashtag delectus semiotics pop-up chillwave pickled williamsburg officia you probably haven't heard of them polaroid kale chips. Raw denim cupidatat cillum. </p>
+			
+				<button class="startDesigning" type="button">START DESIGNING</button>
 		
-		</form>
-
-	<% end %>
+		</div>
 		
-</section>
+		<div id="verticalLine"></div>
+		
+		<section class="signupForm">
+			
+			<h2>New to Trendit?</h2>
+			<h3>Sign up for free!</h3>
 
-</section>
+			<%= form_for :user do |form| %>
+						
+				<section class="input-section-float">
+					<%= form.text_field :first_name, :placeholder => "FIRST", :class => "name signup required" %>
+				</section>
 
-	</div>
+				<section class="input-section-float">
+					<%= form.text_field :last_name, :placeholder => "LAST", :class => "name signup required" %>
+				</section>
+				<br />
+
+				<%= form.email_field :email, :class => "signup required email", :placeholder => "EMAIL" %>
+				<br />
+
+				<%= form.password_field :password, :class => "signup required", :placeholder => "PASSWORD" %>
+				<br />
+
+				<%= error_messages_for "user" %>
+
+				<p class="legal">By signing up, I accept Trendit's Terms of Use and Privacy Policy.</p>
+
+				<%= submit_tag "SIGN UP", :class => "submit", :name => "signup" %>
+				
+			<% end %>
+				
+		</section>
+
+	</section>
+
+</div>
