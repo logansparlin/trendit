@@ -42,6 +42,16 @@ class UserController < ApplicationController
     redirect_to :action => "register", :controller => "user"
   end
 
+  def list
+    @title = "User List"
+    users = User.all
+    flash[:users] = users
+    if (!users)
+      flash[:notice] = "No users in database!"
+      redirect_to :action => "index"
+    end
+  end
+
   private 
 
   def protect
