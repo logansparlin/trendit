@@ -31,15 +31,15 @@
 	
 		<form class="signupForm cmxform" id="commentForm">
 			
-			<%= form.text_field :first_name, :placeholder => "FIRST", :class => "name signup" %>
+			<%= form.text_field :first_name, :placeholder => "FIRST", :class => "name signup required" %>
 
-			<%= form.text_field :last_name, :placeholder => "LAST", :class => "name signup" %>
+			<%= form.text_field :last_name, :placeholder => "LAST", :class => "name signup required" %>
 			<br />
 
-			<%= form.email_field :email, :class => "signup", :placeholder => "EMAIL" %>
+			<%= form.email_field :email, :class => "signup required email", :placeholder => "EMAIL" %>
 			<br />
 
-			<%= form.password_field :password, :class => "signup", :placeholder => "PASSWORD" %>
+			<%= form.password_field :password, :class => "signup required", :placeholder => "PASSWORD" %>
 			<br />
 
 			<%= error_messages_for "user" %>
