@@ -379,3 +379,7 @@ label.error {
 	display: block;
 	color: red;
 }
+
+.disp-block {
+	display: block;
+}
